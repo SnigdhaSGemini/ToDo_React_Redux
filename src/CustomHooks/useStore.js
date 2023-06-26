@@ -13,7 +13,7 @@ const useStore = (initialInput) => {
             id: 0,
             list: store
         }
-       if(records.length==0){   records.push(listRecord);}
+       if(records.length===0){   records.push(listRecord);}
         records[0] = listRecord;
         setRecords(records);
         

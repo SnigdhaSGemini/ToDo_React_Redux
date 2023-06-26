@@ -62,7 +62,7 @@ const navigate=()=>{
  
       let flag = 0;
       for (let i = 0; i < userLogin.length; i++) {
-          if (userLogin[i].email === email.toLowerCase() && userLogin[i].password == password) {
+          if (userLogin[i].email === email.toLowerCase() && userLogin[i].password === password) {
               flag = 1;
               localStorage.setItem("userCredentials", JSON.stringify({
                   email: email,
