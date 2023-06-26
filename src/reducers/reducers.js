@@ -1,6 +1,6 @@
 const initialData = {
    
-    list: localStorage === null ? [] : JSON.parse(localStorage.getItem("list"))[0].list 
+    list: localStorage !== null ? [] : JSON.parse(localStorage.getItem("list"))[0].list 
 }
 const Reducer = (state=initialData,action) =>{
  switch(action.type){

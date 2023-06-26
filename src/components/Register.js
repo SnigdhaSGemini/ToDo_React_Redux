@@ -93,7 +93,6 @@ const Register = () => {
         setError('');
       }
       let flag = 0;
-      console.log(records.length);
       for (let i = 0; i < records.length; i++) {
         if (records[i].email.toLowerCase() === email.toLowerCase()) {
           alert("User Already Registered");
@@ -104,7 +103,6 @@ const Register = () => {
       if (flag === 0) {
         records.push(objRecord);
         setRecords(records);
-        console.log(records);
         localStorage.setItem("userdata", JSON.stringify(records));
         alert("User Registered Successfully!!")
         history.push("/")
