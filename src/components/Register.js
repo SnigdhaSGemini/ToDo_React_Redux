@@ -134,7 +134,7 @@ const Register = () => {
            
         </div> 
         <button className='register-button btn btn-warning' disabled={!isvalid} type='submit' onClick={navigate}>Register</button>
-        <button className='link'><a onClick={() => {history.push('/login')}}>Already Registered ? LogIn</a></button>
+        <button className='link'><a href="#" onClick={() => {history.push('/login')}}>Already Registered ? LogIn</a></button>
     </form>
     </div>
   )

@@ -105,7 +105,7 @@ const navigate=()=>{
             {(error === "epassword" || error === "password") && <p className="error"> {errorMsg} </p>}
         </div> 
         <button className="login-button btn btn-warning" disabled={!isvalid} type='submit' onClick={navigate}>Login</button>
-        <button className='link'><a onClick={() => { history.push('/register') }}>Not Registered Yet? Register Here</a></button>
+        <button className='link'><a href="#" onClick={() => { history.push('/register') }}>Not Registered Yet? Register Here</a></button>
         </form>
   </div>
   )
