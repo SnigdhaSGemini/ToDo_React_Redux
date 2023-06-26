@@ -1,0 +1,30 @@
+.display-list{
+    width:100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.list-element{
+    display: flex;
+    background-color: bisque;
+    color: black;
+    border-radius: 1vw;
+    justify-content: center;
+    align-items: center;
+    margin:1vw;
+}
+h3{
+    width: 30vw;
+    padding: 1vw ;
+    height:auto;
+}
+.delete-button{
+    font-size: xx-large;
+    font-weight: bolder;
+    color:red;
+    border: .1px solid red;
+    border-radius: 1vw;
+    margin-right: 1vw;
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+.login-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vw;
+}
+.error{
+    color:brown;
+}
+label{
+    color: white;
+    /* width: 10vw; */
+    margin:1vw;
+}
+input{
+    margin:1vw;
+    color: grey;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    padding: 2vw;
+    color: wheat;
+}
+.login-button{
+    padding: 1vw;
+    margin: 1vw;
+}
+.link{
+    display: block;
+    padding: 0;
+    border: none;
+    background: none;
+    color: wheat;
+}
+@media (max-width:1000px) {
+    label{
+        margin-right: 10vw;
+    }
+}
+@media (max-width:525px) {
+    label{
+        margin-right: 20vw;
+    }
+}

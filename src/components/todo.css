@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+.main-div{
+    margin-top: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+}
+.child-div{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+

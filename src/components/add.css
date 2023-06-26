@@ -1,0 +1,19 @@
+input{
+    padding: 1vw ;
+}
+figcaption{
+    font-size: larger;
+}
+.add-button{
+  margin-left: 2vw;
+  font-size: xx-large;
+    border: .1px solid grey ;
+    padding: 0vw 1vw 1vw 1vw;
+    border-radius: 1vw;
+    transition-duration:  1s ;
+    cursor: pointer;
+}
+.add-button:hover{
+  border:.1px solid rgb(83, 83, 83) ;
+  background-color: rgb(32, 32, 32);
+}
